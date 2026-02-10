@@ -12,7 +12,7 @@ from PIL import Image
 from io import BytesIO
 
 # --- CONFIGURATION ---
-API_KEY = "AIzaSyBX9TgIn8ao_kHr5O9-4e4vGSI5rdzH3Fc"  # Replace with your Gemini API Key
+API_KEY = "  # Replace with your Gemini API Key "
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-3-flash-preview')
 
